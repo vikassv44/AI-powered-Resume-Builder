@@ -1,7 +1,7 @@
 import requests
 
-API_KEY = "AIzaSyBYo1t0alK0CBPfxae1ruyvhyP2tE-rDJ0"
-CSE_ID = "6589371c378b54a22"
+API_KEY = "#your api key"
+CSE_ID = "#your cse_id"
 
 def read_input_file(file_path):
     with open(file_path, 'r') as file:
@@ -31,8 +31,8 @@ def save_results_to_file(results, output_file_path):
                 f.write(f"Link: {item['link']}\n\n")
 
 def main():
-    input_file_path = "C:\\Users\\S Naga Varun\\eclipse-workspace\\Java_Project\\user_input.txt"
-    output_file_path = "C:\\Users\\S Naga Varun\\eclipse-workspace\\Java_Project\\ai_output.txt"
+    input_file_path = "filepath.txt"
+    output_file_path = "filepath.txt"
 
     user_profile = read_input_file(input_file_path)
     print("Searching jobs for profile:", user_profile)
