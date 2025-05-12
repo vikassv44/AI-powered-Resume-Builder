@@ -1,0 +1,4 @@
+Qualification: be in electronics and communications
+Qualification: 
+Skills:
+java, verilog, embedded c, , , 
